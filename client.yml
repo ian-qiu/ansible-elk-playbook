@@ -1,0 +1,8 @@
+---
+#
+# Playbook to install the Beats
+#
+
+- hosts: php
+  roles:
+  - { role: filebeat }
